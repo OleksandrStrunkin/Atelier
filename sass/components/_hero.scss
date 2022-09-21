@@ -1,0 +1,35 @@
+.hero{
+    min-height: 100%;
+    text-align: center;
+    padding-bottom: 0;
+   
+}
+.cont-hero{
+    min-height: 100%;
+     background-image:url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+.hero-text {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFAE2B;
+margin-bottom: 15px;
+}
+.hero-title {
+    font-weight: 400;
+font-size: 70px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+margin-bottom: 35px;
+
+}
