@@ -349,8 +349,8 @@ a {
   width: 420px;
   height: 59px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.7142857143;
   border: 1px solid #4B4136;
 }
 
@@ -371,6 +371,22 @@ a {
           align-items: center;
   height: 48px;
   border: 1px solid #4B4136;
+}
+
+.soc__link {
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  fill: #ffffff;
+  -webkit-transition: var(--transition-function);
+  transition: var(--transition-function);
+}
+.soc__link:hover {
+  fill: #181511;
+  background-color: #FFAE2B;
 }
 
 .footer-list {
