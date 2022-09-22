@@ -25,6 +25,7 @@
     line-height:calc(24 / 11);
     text-transform: uppercase;
     color: #ACA592;
+    transition: var(--transition-function);
     &:hover{
         color: #FFAE2B;
     }
@@ -52,6 +53,7 @@ text-align: center;
 text-transform: uppercase;
 color: #FFAE2B;
 cursor: pointer;
+transition: var(--transition-function);
 &:hover{
     background-color: #FFAE2B;
 ;

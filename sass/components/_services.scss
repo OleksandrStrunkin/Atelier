@@ -1,0 +1,9 @@
+.services{
+    background-color: #181511;
+    padding-bottom: 120px;
+}
+.services-list{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
