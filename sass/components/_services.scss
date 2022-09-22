@@ -1,9 +1,35 @@
 .services{
     background-color: #181511;
     padding-bottom: 120px;
+    &__title{
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        font-weight: 400;
+    font-size: 24px;
+    line-height: calc(34 / 24);
+    color: #FFAE2B;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: calc(26 / 15);
+        color: #ACA592; 
+    }
+    &__discrip{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: calc(26 / 11);
+        color: #ACA592;
+
+    }
 }
 .services-list{
     display: grid;
-    justify-items: center;
+    padding: 0 120px;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.services__item{
+    padding: 61px;
+    border: 1px solid #4B4136;
 }

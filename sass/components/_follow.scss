@@ -1,0 +1,39 @@
+.follow{
+    background-color: #181511;
+    padding-bottom: 120px;
+}
+.follow-list{
+    position: relative;
+    padding: 0 120px;
+    gap: 1px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 217px 217px 1fr 217px 217px;
+}
+.follow__item{
+    display: grid;
+     justify-items: center;
+    align-items: center;
+}
+.follow__item>p{
+    margin-bottom: 40px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: calc(50 / 40);
+    color: #FFAE2B;
+
+}
+.follow__btn{
+    width: 122px;
+    height: 50px;
+}
+.follow-list::before{
+    content: "";
+    position: absolute;
+    top: -21px;
+    width: 1180px;
+    height: 1px;
+    background-color: #4B4136;;
+}
