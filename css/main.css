@@ -68,6 +68,8 @@ a {
 }
 
 .nav__link {
+  height: 100%;
+  padding: 30px 0;
   font-weight: 400;
   font-size: 11px;
   line-height: 2.1818181818;
@@ -75,6 +77,18 @@ a {
   color: #ACA592;
   -webkit-transition: var(--transition-function);
   transition: var(--transition-function);
+}
+.nav__link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: #FFAE2B;
+  -webkit-transition: var(--transition-function);
+  transition: var(--transition-function);
+}
+.nav__link:hover::after {
+  width: 100%;
 }
 .nav__link:hover {
   color: #FFAE2B;
